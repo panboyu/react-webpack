@@ -35,6 +35,7 @@ module.exports = {
         host: host,
         hot: true,
         inline: true,
+        historyApiFallback: true,
         contentBase: path.resolve(__dirname, 'build'),
     },
     module: {
